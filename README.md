@@ -1,7 +1,7 @@
 # Password Strength Analyzer with Custom Wordlist Generator
-# Analyze password strength and create targeted wordlists for password auditing and security testing—all from a simple CLI.
+## Analyze password strength and create targeted wordlists for password auditing and security testing—all from a simple CLI.
 
-# Features
+## Features
 + Realistic password strength analysis using the zxcvbn algorithm.
 
 + Custom wordlist generation based on user-provided names, dates, pet names, etc.
@@ -10,12 +10,12 @@
 
 + Exports wordlists in .txt format for use with password cracking or auditing tools.
 
-# Requirements
+## Requirements
  + Python 3.x
 
  + zxcvbn-python (pip install zxcvbn-python)
 
-# Usage
+## Usage
 1. Clone or download this repository.
 
 2. (Optional) Create a folder named wordlists in the project directory if it doesn’t already exist.
@@ -28,13 +28,13 @@ pip install zxcvbn-python
 ```
 python analyzer.py
 ```
-# Follow the prompts:
+## Follow the prompts:
 
 + Enter the password to analyze.
 
 + Enter comma-separated hints for the wordlist (e.g., names, dates).
 
-# Check output:
+## Check output:
 
 + Password strength details are shown in the terminal.
 
@@ -53,7 +53,7 @@ Password Analysis:
 Enter comma-separated hints (names, dates, pet names, etc.) for a custom wordlist: dushyant,2025,shadow
 Custom wordlist generated and saved to: wordlists/generated_wordlist.txt
 ```
-# Project Structure
+## Project Structure
 ```
 password-strength-analyzer/
 ├── analyzer.py
