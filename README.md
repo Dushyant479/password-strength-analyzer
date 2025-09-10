@@ -1,4 +1,4 @@
-## Password Strength Analyzer with Custom Wordlist Generator
+# Password Strength Analyzer with Custom Wordlist Generator
 # Analyze password strength and create targeted wordlists for password auditing and security testing—all from a simple CLI.
 
 # Features
