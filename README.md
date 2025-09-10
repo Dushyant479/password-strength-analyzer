@@ -21,27 +21,27 @@
 2. (Optional) Create a folder named wordlists in the project directory if it doesn’t already exist.
 
 3. Install dependencies:
-
-text
+```
 pip install zxcvbn-python
-Run the script:
-
-text
+```
+5. Run the script:
+```
 python analyzer.py
-Follow the prompts:
+```
+# Follow the prompts:
 
-Enter the password to analyze.
++ Enter the password to analyze.
 
-Enter comma-separated hints for the wordlist (e.g., names, dates).
++ Enter comma-separated hints for the wordlist (e.g., names, dates).
 
-Check output:
+# Check output:
 
-Password strength details are shown in the terminal.
++ Password strength details are shown in the terminal.
 
-Generated wordlist is saved to wordlists/generated_wordlist.txt.
++ Generated wordlist is saved to wordlists/generated_wordlist.txt.
 
 Example
-text
+```
 Enter a password to analyze: Pa$$w0rd2025
 Password Analysis:
   Password: Pa$$w0rd2025
@@ -52,11 +52,13 @@ Password Analysis:
 
 Enter comma-separated hints (names, dates, pet names, etc.) for a custom wordlist: dushyant,2025,shadow
 Custom wordlist generated and saved to: wordlists/generated_wordlist.txt
-Project Structure
-text
+```
+# Project Structure
+```
 password-strength-analyzer/
 ├── analyzer.py
 ├── requirements.txt
 ├── wordlists/
 │   └── generated_wordlist.txt
 └── report.pdf
+```
